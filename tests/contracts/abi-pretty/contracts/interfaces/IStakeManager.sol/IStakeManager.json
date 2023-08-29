@@ -1,0 +1,14 @@
+[
+  "event Deposited(address indexed,uint256)",
+  "event StakeLocked(address indexed,uint256,uint256)",
+  "event StakeUnlocked(address indexed,uint256)",
+  "event StakeWithdrawn(address indexed,address,uint256)",
+  "event Withdrawn(address indexed,address,uint256)",
+  "function addStake(uint32) payable",
+  "function balanceOf(address) view returns (uint256)",
+  "function depositTo(address) payable",
+  "function getDepositInfo(address) view returns (tuple(uint112,bool,uint112,uint32,uint48))",
+  "function unlockStake()",
+  "function withdrawStake(address)",
+  "function withdrawTo(address,uint256)"
+]

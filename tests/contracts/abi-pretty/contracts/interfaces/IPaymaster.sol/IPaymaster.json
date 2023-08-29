@@ -1,0 +1,4 @@
+[
+  "function postOp(uint8,bytes,uint256)",
+  "function validatePaymasterUserOp(tuple(address,uint256,bytes,bytes,uint256,uint256,uint256,uint256,uint256,bytes,bytes),bytes32,uint256) returns (bytes, uint256)"
+]

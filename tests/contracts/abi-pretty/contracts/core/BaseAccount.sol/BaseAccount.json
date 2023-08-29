@@ -1,0 +1,5 @@
+[
+  "function entryPoint() view returns (address)",
+  "function getNonce() view returns (uint256)",
+  "function validateUserOp(tuple(address,uint256,bytes,bytes,uint256,uint256,uint256,uint256,uint256,bytes,bytes),bytes32,uint256) returns (uint256)"
+]

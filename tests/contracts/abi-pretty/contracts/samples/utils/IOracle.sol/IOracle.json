@@ -1,0 +1,4 @@
+[
+  "function decimals() view returns (uint8)",
+  "function latestRoundData() view returns (uint80, int256, uint256, uint256, uint80)"
+]

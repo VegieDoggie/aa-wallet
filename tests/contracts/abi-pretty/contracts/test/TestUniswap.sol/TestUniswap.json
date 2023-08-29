@@ -1,0 +1,8 @@
+[
+  "constructor(address)",
+  "event StubUniswapExchangeEvent(uint256,uint256,address,address)",
+  "function exactInputSingle(tuple(address,address,uint24,address,uint256,uint256,uint256,uint160)) returns (uint256)",
+  "function exactOutputSingle(tuple(address,address,uint24,address,uint256,uint256,uint256,uint160)) returns (uint256)",
+  "function unwrapWETH9(uint256,address) payable",
+  "function weth() view returns (address)"
+]

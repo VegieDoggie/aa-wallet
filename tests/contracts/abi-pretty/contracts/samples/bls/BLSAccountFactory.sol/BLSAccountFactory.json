@@ -1,0 +1,6 @@
+[
+  "constructor(address,address)",
+  "function accountImplementation() view returns (address)",
+  "function createAccount(uint256,uint256[4]) returns (address)",
+  "function getAddress(uint256,uint256[4]) view returns (address)"
+]

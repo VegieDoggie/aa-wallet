@@ -1,0 +1,6 @@
+[
+  "function intersectTimeRange(uint256,uint256) pure returns (tuple(address,uint48,uint48))",
+  "function packValidationData(bool,uint48,uint48) pure returns (uint256)",
+  "function packValidationDataStruct(tuple(address,uint48,uint48)) pure returns (uint256)",
+  "function parseValidationData(uint256) pure returns (tuple(address,uint48,uint48))"
+]

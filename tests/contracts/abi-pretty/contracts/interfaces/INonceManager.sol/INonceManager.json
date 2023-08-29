@@ -1,0 +1,4 @@
+[
+  "function getNonce(address,uint192) view returns (uint256)",
+  "function incrementNonce(uint192)"
+]

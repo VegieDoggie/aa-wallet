@@ -1,0 +1,7 @@
+[
+  "function onERC1155BatchReceived(address,address,uint256[],uint256[],bytes) pure returns (bytes4)",
+  "function onERC1155Received(address,address,uint256,uint256,bytes) pure returns (bytes4)",
+  "function onERC721Received(address,address,uint256,bytes) pure returns (bytes4)",
+  "function supportsInterface(bytes4) view returns (bool)",
+  "function tokensReceived(address,address,address,uint256,bytes,bytes) pure"
+]

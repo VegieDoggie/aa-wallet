@@ -1,0 +1,6 @@
+[
+  "event TokenPriceUpdated(uint256,uint256,uint256)",
+  "function cachedPrice() view returns (uint256)",
+  "function cachedPriceTimestamp() view returns (uint256)",
+  "function updateCachedPrice(bool) returns (uint256)"
+]

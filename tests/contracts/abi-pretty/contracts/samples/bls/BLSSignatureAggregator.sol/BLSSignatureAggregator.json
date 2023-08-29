@@ -1,0 +1,12 @@
+[
+  "function BLS_DOMAIN() view returns (bytes32)",
+  "function N() view returns (uint256)",
+  "function addStake(address,uint32) payable",
+  "function aggregateSignatures(tuple(address,uint256,bytes,bytes,uint256,uint256,uint256,uint256,uint256,bytes,bytes)[]) pure returns (bytes)",
+  "function getTrailingPublicKey(bytes) pure returns (uint256[4])",
+  "function getUserOpHash(tuple(address,uint256,bytes,bytes,uint256,uint256,uint256,uint256,uint256,bytes,bytes)) view returns (bytes32)",
+  "function getUserOpPublicKey(tuple(address,uint256,bytes,bytes,uint256,uint256,uint256,uint256,uint256,bytes,bytes)) view returns (uint256[4])",
+  "function userOpToMessage(tuple(address,uint256,bytes,bytes,uint256,uint256,uint256,uint256,uint256,bytes,bytes)) view returns (uint256[2])",
+  "function validateSignatures(tuple(address,uint256,bytes,bytes,uint256,uint256,uint256,uint256,uint256,bytes,bytes)[],bytes) view",
+  "function validateUserOpSignature(tuple(address,uint256,bytes,bytes,uint256,uint256,uint256,uint256,uint256,bytes,bytes)) view returns (bytes)"
+]

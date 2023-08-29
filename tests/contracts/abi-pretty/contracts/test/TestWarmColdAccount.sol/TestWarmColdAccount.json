@@ -1,0 +1,7 @@
+[
+  "constructor(address) payable",
+  "function state() view returns (uint256)",
+  "function touchPaymaster(address) view returns (uint256)",
+  "function touchStorage() view returns (uint256)",
+  "function validateUserOp(tuple(address,uint256,bytes,bytes,uint256,uint256,uint256,uint256,uint256,bytes,bytes),bytes32,uint256) returns (uint256)"
+]

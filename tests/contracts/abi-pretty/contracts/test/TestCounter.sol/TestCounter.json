@@ -1,0 +1,10 @@
+[
+  "event CalledFrom(address)",
+  "function count()",
+  "function countFail() pure",
+  "function counters(address) view returns (uint256)",
+  "function gasWaster(uint256,string)",
+  "function justemit()",
+  "function offset() view returns (uint256)",
+  "function xxx(uint256) view returns (uint256)"
+]

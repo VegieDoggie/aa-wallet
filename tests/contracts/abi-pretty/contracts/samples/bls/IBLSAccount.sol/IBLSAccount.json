@@ -1,0 +1,5 @@
+[
+  "event PublicKeyChanged(uint256[4],uint256[4])",
+  "function getBlsPublicKey() view returns (uint256[4])",
+  "function validateUserOp(tuple(address,uint256,bytes,bytes,uint256,uint256,uint256,uint256,uint256,bytes,bytes),bytes32,uint256) returns (uint256)"
+]

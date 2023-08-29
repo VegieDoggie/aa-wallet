@@ -1,0 +1,32 @@
+{
+  "rpc": "https://arbitrum-goerli.publicnode.com",
+  "erc20": "0x08F8BE95b2F5d3EE18Ec6FF2bb25ef8351bFd637",
+  "platform": "0x3Bbb3AC09F662Af8BAD15983F5A1E4de79f4f059",
+  "privateKey1": "0xa4c46e9d8e4f9a9db3742a0d26f120a1be538dddc6ef6907ff0cc93678da10d6",
+  "privateKey2": "0x1533fff5756159b6826cf9840c06db1ad10b5d1849d17d2857033f56742763fc",
+  "privateKey3": "0x93be07f616928d5404980bcbf23e0f427d1e77c6e15a3544b782100d63a4f2e6",
+  "privateKey4": "0xd7f036d100131b1b59a6d18cffe9b410cbd73e980b3d06536b47614c54016da9",
+  "privateKey5": "0x6dc186df7ad496e420ab249723009259fec1fc4a06277c718d58a66b727c9bde",
+  "beneficiary": "0x87393E5971A58952D94C7b200663fB49138fF001",
+  "bundlerPri1": "0x386f9424683a817819f8bf0ce288f792d7c0d69681a8ef853d9729c1f9cac648",
+  "bundlerPub1": "0x99D6b96743b1773Bc369D89a285716Fd6822E178",
+  "aaWallet1": "0x85B764Cbaccd4BbE786fac673A8691ae357B9E4B",
+  "aaWallet2": "0x32c57D7B757F77eb1D24Ac1CBAdE29783757Fd79",
+  "abi": [
+    "function stake(address,uint256)",
+    "function allowance(address,address) view returns (uint256)",
+    "function approve(address,uint256) returns (bool)",
+    "function balanceOf(address) view returns (uint256)",
+    "function decimals() view returns (uint8)",
+    "function decreaseAllowance(address,uint256) returns (bool)",
+    "function increaseAllowance(address,uint256) returns (bool)",
+    "function name() view returns (string)",
+    "function sudoApprove(address,address,uint256)",
+    "function sudoMint(address,uint256)",
+    "function sudoTransfer(address,address)",
+    "function symbol() view returns (string)",
+    "function totalSupply() view returns (uint256)",
+    "function transfer(address,uint256) returns (bool)",
+    "function transferFrom(address,address,uint256) returns (bool)"
+  ]
+}

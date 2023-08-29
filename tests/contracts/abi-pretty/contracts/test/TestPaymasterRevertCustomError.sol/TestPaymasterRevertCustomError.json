@@ -1,0 +1,17 @@
+[
+  "constructor(address)",
+  "error CustomError()",
+  "event OwnershipTransferred(address indexed,address indexed)",
+  "function addStake(uint32) payable",
+  "function deposit() payable",
+  "function entryPoint() view returns (address)",
+  "function getDeposit() view returns (uint256)",
+  "function owner() view returns (address)",
+  "function postOp(uint8,bytes,uint256)",
+  "function renounceOwnership()",
+  "function transferOwnership(address)",
+  "function unlockStake()",
+  "function validatePaymasterUserOp(tuple(address,uint256,bytes,bytes,uint256,uint256,uint256,uint256,uint256,bytes,bytes),bytes32,uint256) returns (bytes, uint256)",
+  "function withdrawStake(address)",
+  "function withdrawTo(address,uint256)"
+]

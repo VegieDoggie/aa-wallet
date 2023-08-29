@@ -1,0 +1,8 @@
+[
+  "constructor(int256,uint8)",
+  "function decimals() view returns (uint8)",
+  "function latestRoundData() view returns (uint80, int256, uint256, uint256, uint80)",
+  "function price() view returns (int256)",
+  "function setDecimals(uint8)",
+  "function setPrice(int256)"
+]
