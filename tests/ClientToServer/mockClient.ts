@@ -1,6 +1,7 @@
 import {ethers} from "ethers";
 import {AaWallet, Action, VERSION} from "../../src/aaWallet/AaWallet";
 import config from "./config.json"
+import {toUserOperationJson} from "../../src/utils/utils";
 
 /*
 * 记录1: privateKey1使用老版的mint, approve, stake报错，原因出在call gas预估上
@@ -38,9 +39,9 @@ async function main() {
     //     data: aaWallet.calldata([mint, approve, stake]),
     //     gasLimit: 3000000
     // })
-    // const op = await aaWallet.sign([mint, approve, stake])
-    // console.log(toUserOperationJson(op))
-    // await sendPostRequest(toUserOperationJson(op), aaWallet.chainId)
+    const op = await aaWallet.sign([mint, approve, stake])
+    console.log(toUserOperationJson(op))
+    await sendPostRequest(toUserOperationJson(op), aaWallet.chainId)
 }
 
 async function sendPostRequest(op: any, chainId: bigint, url = 'http://localhost:3000/api/aa') {

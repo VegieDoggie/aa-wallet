@@ -65,7 +65,7 @@ export class AaWallet {
             await signerWithProvider.provider.getNetwork()
         ])
         const aaAddress = "0x" + (await signerWithProvider.call({
-            to: opt.aaAccountFactory ?? ERC4337.SimpleAccount.Factory,
+            to: opt?.aaAccountFactory ?? ERC4337.SimpleAccount.Factory,
             data: ethers.keccak256(ethers.toUtf8Bytes("getAddress(address,uint256)")).substring(0, 10)
                 + AbiCoder.defaultAbiCoder().encode(["address", "uint256"], [user, opt.salt ?? 0n]).substring(2),
             gasLimit: 3000000,
