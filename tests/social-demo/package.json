@@ -1,0 +1,27 @@
+{
+  "name": "social-demo",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@types/node": "20.5.7",
+    "@types/react": "18.2.21",
+    "@types/react-dom": "18.2.7",
+    "@types/styled-components": "^5.1.26",
+    "@web3auth/base": "^6.1.7",
+    "@web3auth/torus-wallet-connector-plugin": "^6.1.7",
+    "@zerodev/web3auth": "^4.0.3",
+    "encoding": "^0.1.13",
+    "ethers": "^6.7.1",
+    "next": "13.4.19",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "styled-components": "^6.0.7",
+    "typescript": "5.2.2"
+  }
+}
