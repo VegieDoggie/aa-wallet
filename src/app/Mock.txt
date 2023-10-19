@@ -1,0 +1,18 @@
+import {ethers} from "ethers";
+import ERC20ABI from "../abi/ERC20.json";
+import MarketRouterABI from "../abi/MarketRouter.json";
+const mock = async () => {
+    // function approve(address,uint256) returns (bool)
+    //
+    const erc20 = new ethers.utils.Interface(ERC20ABI)
+    const approve = {
+        to: ? , // TODO 填写USDT地址，我们将和USDT的合约(也就是ERC20)进行交互: 批准/授权
+        data: erc20.encodeFunctionData('approve', [<参数列表>]),
+    } as any
+    const uniFace = new ethers.utils.Interface(MarketRouterABI)
+
+    const stake = {
+        to: ?, // TODO 填写MarketRouter地址，我们将和MarketRouter合约进行交互，比如: 10U 开多
+        data: uniFace.encodeFunctionData('increasePosition', [<参数列表>]),
+    } as any
+}

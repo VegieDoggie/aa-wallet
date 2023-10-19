@@ -1,13 +1,26 @@
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-# aa-wallet
+## Getting Started
 
-# 本地主要的测试文件
+First, run the development server:
 
-- 前端测试: `tests/ClientToServer/mockClient.ts`
-- bundler: `tests/ClientToServer/mockServer.ts`
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+```
 
-# 主要目录简介
+## 测试环境 Arbitrum Goerli
 
-- tests/contracts: hardhat工程，里面包含EntryPoint，SimpleAccount等以太坊官方开源的合约
-- src: AA钱包的前端SDK，主要功能是独立构建UserOperation核心对象
+操作步骤:
 
+1. aa钱包sudoMint代币
+2. 授权给platform
+3. 质押给platform
+
+
+## 说明
+
+Gas费用由自定义Paymaster赞助，可以限制合约和接口
